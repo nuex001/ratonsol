@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0%;
@@ -17,7 +19,7 @@ html{
 .container {
   width: 100%;
   min-height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Teachers", sans-serif;
   font-size: 10px;
   background: var(--bg);
 }
@@ -73,9 +75,9 @@ html{
 .container header .text h1{
     font-size: 8em;
 }
-.container header .text h1:nth-child(2){
+/* .container header .text h1:nth-child(2){
   margin-left: 2em;
-}
+} */
 .container header .text h2{
     font-size: 3em;
     margin: 1em 0em;
